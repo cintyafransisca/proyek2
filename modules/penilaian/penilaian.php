@@ -113,8 +113,7 @@ $cari=$_GET['cari'];
 						<td><?php echo $data_join2['nilai'] ?></td>
 					<?php } else { ?>
 
-					<?php } ?>
-					<?php
+					<?php } 
 						$j++;
 					}
 					?>  		  
