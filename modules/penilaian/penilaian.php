@@ -108,10 +108,12 @@ $cari=$_GET['cari'];
 					while($data_join2 = mysql_fetch_array($result_join2)){
 					?> 
 					<?php
-					if ($data_join2['pn.id_kriteria']=$data_join2['k.id_kriteria']){
+					if ($data_join2['id_kriteria']=$data_join['id_kriteria']){
 					?>
 						<td><?php echo $data_join2['nilai'] ?></td>
-						
+					<?php } else { ?>
+
+					<?php } ?>
 					<?php
 						$j++;
 					}
